@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/CLionWorkspace/C++/CppDocker/docker.h
+sys/wait.h
+-
+sys/mount.h
+-
+fcntl.h
+-
+unistd.h
+-
+iostream
+-
+sched.h
+-
+cstring
+-
+string
+-
+
+/mnt/d/CLionWorkspace/C++/CppDocker/main.cpp
+docker.h
+/mnt/d/CLionWorkspace/C++/CppDocker/docker.h
+iostream
+-
+

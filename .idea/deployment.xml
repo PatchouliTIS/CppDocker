@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="TencentUbuntu-20.04 (92f7ece7-2770-4aa1-8112-844c629bea05)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/CppDocker" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

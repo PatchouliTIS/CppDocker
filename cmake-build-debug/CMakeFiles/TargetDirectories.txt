@@ -1,0 +1,3 @@
+/mnt/d/CLionWorkspace/C++/CppDocker/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/d/CLionWorkspace/C++/CppDocker/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/d/CLionWorkspace/C++/CppDocker/cmake-build-debug/CMakeFiles/CppDocker.dir
