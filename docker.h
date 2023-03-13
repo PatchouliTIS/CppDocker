@@ -54,7 +54,7 @@ namespace docker {
         container_config config;
 
         // 1. 使用/bin/bash将容器保持运行状态，不至于因为没有进行任何操作而直接返回。
-        static void start_bash() {
+        void start_bash() {
 
             // 将 C++ std::string 安全的转换为 C 风格的字符串 char *
 
