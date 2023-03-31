@@ -49,6 +49,8 @@ namespace docker {
 
         char child_stack[STACK_SIZE];
 
+        process_pid curContainerPid;
+
         // 容器配置
 
         container_config config;
@@ -109,17 +111,26 @@ namespace docker {
 
         }
 
+        void setContainerPid(const int& pid) {
+            this->curContainerPid = pid;
+        }
+
+        process_pid getContainerPid() {
+            return this->curContainerPid;
+        }
+
         void start() {
             auto setup = [](void *args) -> int {
+
                 auto _this = reinterpret_cast<container *>(args);
 
                 // 对容器进行相关配置
 
-                std::cout << "<<< ENTERING START()" << std::endl;
+                // std::cout << "<<< ENTERING START()" << std::endl;
 
                 _this->set_hostname();
 
-                std::cout << "<<< hostname set" << std::endl;
+                // std::cout << "<<< hostname set" << std::endl;
 
                 _this->set_rootdir();
 
@@ -127,7 +138,7 @@ namespace docker {
 
                  _this->set_procsys();
 
-                std::cout << "<<< start bash" << std::endl;
+                // std::cout << "<<< start bash" << std::endl;
 
                 _this->start_bash();
 
@@ -148,7 +159,11 @@ namespace docker {
 
                                           this);
 
-            waitpid(child_pid, nullptr, 0); // 等待子进程的退出
+            this->setContainerPid(child_pid);
+
+            std::cout<<"<<< docker start >>>"<<"\t container pid:"<<this->getContainerPid()<<std::endl;
+
+            // waitpid(child_pid, nullptr, 0); // 等待子进程的退出
 
         }
 
