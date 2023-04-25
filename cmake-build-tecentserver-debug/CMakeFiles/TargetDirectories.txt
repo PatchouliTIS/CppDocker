@@ -1,0 +1,3 @@
+/home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-tecentserver-debug/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-tecentserver-debug/CMakeFiles/edit_cache.dir
+/home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-tecentserver-debug/CMakeFiles/CppDocker.dir

@@ -3,4 +3,4 @@ project(CppDocker)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(CppDocker main.cpp docker.h)
+add_executable(CppDocker main.cpp docker.h network.c network.h nl.c nl.h)

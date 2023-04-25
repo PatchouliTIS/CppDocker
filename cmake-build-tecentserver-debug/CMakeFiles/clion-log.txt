@@ -1,4 +1,4 @@
-/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" -S /home/ubuntu/CLionWorkSpace/CppDocker -B /home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-debug
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -G "CodeBlocks - Unix Makefiles" -S /home/ubuntu/CLionWorkSpace/CppDocker -B /home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-tecentserver-debug
 -- The C compiler identification is GNU 9.4.0
 -- The CXX compiler identification is GNU 9.4.0
 -- Check for working C compiler: /usr/bin/gcc
@@ -15,4 +15,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-debug
+-- Build files have been written to: /home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-tecentserver-debug

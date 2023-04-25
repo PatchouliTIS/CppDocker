@@ -5,8 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ubuntu/CLionWorkSpace/CppDocker/network.c" "/home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-debug/CMakeFiles/CppDocker.dir/network.c.o"
-  "/home/ubuntu/CLionWorkSpace/CppDocker/nl.c" "/home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-debug/CMakeFiles/CppDocker.dir/nl.c.o"
+  "/home/ubuntu/CLionWorkSpace/CppDocker/network.c" "/home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-tecentserver-debug/CMakeFiles/CppDocker.dir/network.c.o"
+  "/home/ubuntu/CLionWorkSpace/CppDocker/nl.c" "/home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-tecentserver-debug/CMakeFiles/CppDocker.dir/nl.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -14,7 +14,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_TARGET_INCLUDE_PATH
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ubuntu/CLionWorkSpace/CppDocker/main.cpp" "/home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-debug/CMakeFiles/CppDocker.dir/main.cpp.o"
+  "/home/ubuntu/CLionWorkSpace/CppDocker/main.cpp" "/home/ubuntu/CLionWorkSpace/CppDocker/cmake-build-tecentserver-debug/CMakeFiles/CppDocker.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
